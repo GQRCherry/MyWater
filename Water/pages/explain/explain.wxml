@@ -1,0 +1,17 @@
+<!--pages/explain/explain.wxml-->
+<view>
+    <view class="n1">损坏分为水阀损坏与水管损坏</view>
+    <view class="n2">水阀损坏分为轻度损坏、中度损坏、重度损坏</view>
+    <view class="n3">
+        <view>轻度损坏：水呈滴落下</view>
+        <view>中度损坏：水成股流下</view>
+        <view>重度损坏：水喷涌而出</view>
+    </view>
+    <view class="n2">水管损坏分为轻度损坏、中度损坏、重度损坏</view>
+    <view class="n3">
+        <view>轻度损坏：水管有裂缝，水渗出</view>
+        <view>中度损坏：水管有缺口，水流出</view>
+        <view>重度损坏：水管断裂，水喷涌而出</view>
+    </view>
+    <button class="btn" bindtap="goUp">确定</button>
+</view>

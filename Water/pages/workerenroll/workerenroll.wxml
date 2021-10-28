@@ -1,0 +1,14 @@
+<!--pages/workerenroll/workerenroll.wxml-->
+<view>
+    <view class="account">
+        <input type="number" placeholder="请输入账号" class="inputs" bindinput="accountinput" />
+    </view>
+    <view class="password">
+        <input type="password" placeholder="请输入密码" class="inputs" bindinput="passwordinput" />
+    </view>
+
+    <view class="click" bindtap="sign">登录</view>
+    <view class="cha" bindtap="goEnroll">
+        <text class="no">没有账号，点我注册！</text>
+    </view>
+</view>

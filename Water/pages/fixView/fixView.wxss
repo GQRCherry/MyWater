@@ -1,0 +1,166 @@
+/* 顶部菜单切换 */
+page{
+  background-color: #efefef;
+}
+
+.navbar {
+  display: flex;
+  background: #fff;
+}
+
+.none_tab {
+  position: relative;
+  top: 20rpx;
+  color: #999;
+  font-size: 32rpx;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  font-size: 27rpx;
+  width: 100rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #333;
+  border-bottom: 6rpx solid #ddd;
+}
+
+.navbar .item.active {
+  color: #333;
+  border-bottom: 6rpx solid #d66058;
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+}
+
+/* 全部 */
+
+.cont_count {
+  padding-top: 6rpx;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 6rpx;
+  background-color: #fff;
+}
+
+/* 列表*/
+
+.box {
+  width: 92%;
+  background-color: white;
+  margin-top: 20rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border:1rpx solid #bfc0c4;
+  border-radius: 8rpx;
+}
+
+.showimg {
+  padding-left: 10rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+/* 订单lab */
+
+.showplace {
+  padding-left: 10rpx;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5rpx;
+  font-size: 34rpx;
+  font-family: PingFangSC-regular;
+  font-weight: bold;
+}
+.showdetailplace{
+  padding-left: 10rpx;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-regular;
+  /* font-weight:; */
+}
+
+.showlevel {
+  padding-left: 10rpx;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-regular;
+  font-weight: normal;
+}
+
+.showtime {
+  padding-left: 10rpx;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rpx;
+  margin-bottom: 5rpx;
+  color: #5e5d5d;
+  font-size: 25rpx;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box2{
+  width: 500rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.box3{
+  display: flex;
+  flex-direction: row;
+}
+
+.btnbtn{
+  margin-left: 100rpx;
+  margin-top: 15rpx;
+}
+
+.coent_log_base {
+  /* position: relative;    */
+  left: 66%;
+  top: 4%;
+  color: rgb(184, 11, 49);
+  right: 0rpx;
+  display: inline-block;
+  width: 180rpx;
+  height: 40rpx;
+  text-align: center;
+  border: 1rpx solid rgb(184, 11, 49);
+  font-size: 30rpx;
+  /* line-height: 56rpx; */
+}
+
+
+
+.coent_log {
+  position: absolute;
+  top: 55%;
+  color: gray;
+  right: 0rpx;
+  display: inline-block;
+  width: 180rpx;
+  height: 56rpx;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 56rpx;
+}

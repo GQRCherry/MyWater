@@ -1,0 +1,60 @@
+<!--pages/up/up.wxml-->
+<view class="upview">
+    <view class="inputInformation">
+        <view class="item1">
+            <text>申请人:</text>
+            <input bindinput="getApplicantName" placeholder="请输入姓名" type="text"></input>
+        </view>
+
+        <view class="item1">
+            <text>联系电话:</text>
+            <input bindinput="getPhoneNum" placeholder="请输入联系电话" type="number"></input>
+        </view>
+
+        <view class="section">
+            <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                <view class="picker">
+                    选择地址：{{region[0]}}，{{region[1]}}，{{region[2]}}
+                </view>
+            </picker>
+        </view>
+
+        <view class="item1">
+            <text>详细地点:</text>
+            <input bindinput="getAddress" placeholder="请输入故障地点" type="text"></input>
+        </view>
+
+        <view class="item2">
+            <view>故障描述:</view>
+            <view>
+                <image class="imgitem2" bindtap="goExplain" src="/image/what.png"></image>
+            </view>
+        </view>
+
+        <view>
+            <textarea class="problemDescribe" value="{{describe}}" bindinput="getDescribe"
+                placeholder="请输入损坏程度（具体分类请点击上方问号）" type="text"></textarea>
+        </view>
+
+        <view class="item2">
+            <view>故障图片(长按可删除)：</view>
+        </view>
+        <view class="weui">
+            <view class="weui-uploader">
+                <view class="weui-uploader__files">
+                    <block wx:for="{{imageList}}" wx:for-item="image" wx:for-index='idx'>
+                        <view class="weui-uploader__file">
+                            <image class="weui-uploader__img" bindlongpress="deleteImage" src="{{image}}"
+                                data-id="{{idx}}" data-src="{{image}}" bindtap="previewImage"></image>
+                        </view>
+                    </block>
+                </view>
+                <view class="weui-uploader__input-box">
+                    <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                </view>
+            </view>
+        </view>
+        <button class="btn" bindtap="submit">提交</button>
+        <view class="txt" bindtap="goPhone">情况紧急？试试电话报修！</view>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/detailmall/detailmall.wxml-->
+<view>
+    <view class="name">{{list.name}}</view>
+    <view class="img">
+        <image src="{{list.url}}" mode="widthFix"></image>
+    </view>
+    <view class="need">所需积分：<text class="color">{{list.price}}</text></view>
+    <view class="detail">商品详情</view>
+    <view class="introduce">{{list.introduce}}</view>
+    <button class="btn" type="primary" bindtap="goExchange" data-name='{{list.name}}'
+        data-price="{{list.price}}">确定兑换</button>
+</view>

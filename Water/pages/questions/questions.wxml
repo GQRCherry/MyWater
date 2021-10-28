@@ -1,0 +1,7 @@
+<!--pages/questions/questions.wxml-->
+<view class="title">
+滴水云修知识问答
+</view>
+<button  class="start" bindtap="go">
+  开始答题
+</button>

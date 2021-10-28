@@ -1,0 +1,12 @@
+<!--pages/scoremall/scoremall.wxml-->
+<view class="mine">
+    <!-- <view class="showuserface"> -->
+    <image class="showuserface" src='{{userInfo.avatarUrl}}'></image>
+    <!-- </view> -->
+    <view class="showusername">{{userInfo.nickName}}</view>
+    <view class="showscore">我的积分:<text class="score">{{userInfo.myScore}}</text></view>
+    <view><button class="btn1" bindtap="goScoreMall">积分商城</button></view>
+    <view><button class="btn1" bindtap="goTips">节水贴士</button></view>
+    <view><button class="btn1" bindtap="goQuestions">知识问答</button></view>
+    <image class="img" mode="widthFix" src="cloud://cloud1-8g5nr0b74a7ae4ed.636c-cloud1-8g5nr0b74a7ae4ed-1306995484/Required_documents/地球卡通.png"></image>
+</view>

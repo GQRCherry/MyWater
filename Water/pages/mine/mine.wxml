@@ -1,0 +1,21 @@
+<!--pages/userMine/userMine.wxml-->
+<view class="two">
+    <view class="mine">
+        <image class="showuserface" src='{{userInfo.avatarUrl}}'></image>
+        <view class="showusername">{{userInfo.nickName}}</view>
+        <view><button class="btn1" bindtap="goScoreMall">我的积分</button></view>
+        <view><button class="btn2" size="mini" bindtap="goWorkerEnroll"><text class="btn2text">我是管理员</text></button>
+        </view>
+    </view>
+    <view class="messages">报修记录</view>
+    <block wx:for="{{messages}}" wx:for-index="id" wx:for-item="itemName">
+        <view class="box">
+            <image class="showimg" src="{{itemName.url}}"> </image>
+            <view class="detail">
+                <view class="showplace">{{itemName.address}}</view>
+                <view class="showlevel">{{itemName.describe}}</view>
+                <view class="showtime">{{itemName.createTime}}</view>
+            </view>
+        </view>
+    </block>
+</view>

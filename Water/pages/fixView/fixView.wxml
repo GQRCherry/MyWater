@@ -1,0 +1,47 @@
+<!--导航条-->
+<view class="navbar">
+    <lable wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+        bindtap="navbarTap">
+        <text>{{item}}</text>
+    </lable>
+</view>
+<!-- 列表区域 -->
+<view wx:if="{{list.length>0}}">
+    <!-- 外层 -->
+    <view wx:for="{{list}}" wx:key="key">
+        <!-- wx:for-index="id" wx:for-item="itemName" -->
+        <!-- 编号 -->
+        <view class='box'>
+            <image class="showimg"
+                src="cloud://cloud1-8g5nr0b74a7ae4ed.636c-cloud1-8g5nr0b74a7ae4ed-1306995484/{{item.photo[0]}}"></image>
+            <view class="box2">
+                <view>
+                    <view class="showplace">{{item.address}}</view>
+                    <view class="showdetailplace">详细地址:{{item.detail_address}}</view>
+                </view>
+                <view class="box3">
+                    <view>
+                        <view class="showlevel">故障描述:{{item.describe}}</view>
+                        <view class="showtime">{{item.createTime}}</view>
+                       
+                    </view>
+                    <view class="btnbtn">
+                        <view wx:if="{{item.status==0}}" class='coent_log_base' data-id='{{item._id}}' bindtap='Order'>
+                            接单
+                        </view>
+
+                        <view wx:if="{{item.status==1}}" class='coent_log_base' data-id='{{item._id}}' bindtap='Finish'>
+                            完成维修
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+</view>
+<!-- 否则 -->
+<view wx:else class='cont_count'>
+    <label class='none_tab'>数据为空</label>
+</view>

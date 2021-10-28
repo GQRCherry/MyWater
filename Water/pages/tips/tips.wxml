@@ -1,0 +1,16 @@
+<!--pages/tips/tips.wxml-->
+<view>
+    <view class="top">
+        <view class="title">
+            滴水云修小贴士
+        </view>
+        <image class="img"
+            src="https://636c-cloud1-8g5nr0b74a7ae4ed-1306995484.tcb.qcloud.la/hat.JPG?sign=17dc6e6889c473f040f56fef58615ac2&t=1633671704"
+            mode="widthFix"></image>
+    </view>
+    <block wx:for="{{tips}}" wx:for-index="idx" wx:for-item="itemName">
+        <view class="box" bindtap="goDetailTips" data-id="{{itemName}}">
+            {{itemName.title}}
+        </view>
+    </block>
+</view>

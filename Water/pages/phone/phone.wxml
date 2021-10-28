@@ -1,0 +1,40 @@
+<!--pages/phone/phone.wxml-->
+<view class="body">
+    <image class="img"
+        src="cloud://cloud1-8g5nr0b74a7ae4ed.636c-cloud1-8g5nr0b74a7ae4ed-1306995484/Required_documents/phone1.png">
+    </image>
+    <view class="content">
+        <view class="txt1">
+            水阀、水管损坏严重而导致水资源流失较多或维修不及时
+        </view>
+        <view class="content1">
+            <view class="txt2">
+                通过电话直接联系相关负责部门...
+            </view>
+            <image class="img1"
+                src="cloud://cloud1-8g5nr0b74a7ae4ed.636c-cloud1-8g5nr0b74a7ae4ed-1306995484/Required_documents/phone2.png">
+            </image>
+        </view>
+    </view>
+
+
+    <block>
+        <view class="section">
+            <picker mode="multiSelector" bindchange="bindMultiPickerChange"
+                bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                <view class="txt3">请选择损坏的用水设施所在单位：</view>
+                <view class="vie1"><text class="picker">{{multiArray[0][multiIndex[0]]}}</text></view>
+                <view class="vie1"><text class="picker">{{multiArray[1][multiIndex[1]]}}</text></view>
+                <view class="vie1"><text class="picker">{{multiArray[2][multiIndex[2]]}}</text></view>
+                <view class="vie1"><text class="picker">{{multiArray[3][multiIndex[3]]}}</text></view>
+            </picker>
+        </view>
+        <view class="seek">
+            <view class="seek1">所查询的电话号码：</view>
+            <view class="seek2">{{phoneNum}}</view>
+        </view>
+        <button class="btn" bindtap="seek">查询</button>
+    </block>
+
+
+</view>

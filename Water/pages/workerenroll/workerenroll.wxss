@@ -1,0 +1,68 @@
+/* pages/login/login.wxss */
+.account {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100rpx;
+    margin-top: 80rpx;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.password {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100rpx;
+    margin-top: 20rpx;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    line-height: 100rpx;
+    font-size: 30rpx;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-left: 20rpx;
+    width: 100%;
+}
+
+.click {
+    width: 90%;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin: auto;
+    margin-top: 100rpx;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0rpx;
+    background-color: #07c160;
+    text-align: center;
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.cha {
+    width: 90%;
+    height: 50rpx;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15rpx;
+
+}
+
+.no {
+    color: #000000;
+    font-size: 28rpx;
+    margin-left: 15rpx;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

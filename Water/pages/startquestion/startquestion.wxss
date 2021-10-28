@@ -1,0 +1,28 @@
+.tip {
+  text-align: center;
+  color:  rgba(13, 145, 13, 0.507);
+  margin: 15rpx;
+  font-size: 42rpx;
+}
+
+.item {
+  margin: 20rpx;
+}
+.pro{
+  margin: 25rpx;
+  color:  rgba(13, 145, 13, 0.507);
+}
+
+.content{
+  margin: 60rpx;
+}
+
+.result{
+  margin-top: 30rpx;
+  text-align:center; 
+}
+
+.submitt{
+  color: white;
+  background:  rgba(13, 145, 13, 0.507);
+}

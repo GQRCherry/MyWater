@@ -1,0 +1,52 @@
+/* pages/tips/tips.wxss */
+page{
+    background-color: #efefef;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30rpx;
+    padding-top: 30rpx;
+    background-color: white;
+}
+.title{
+    font-size: 60rpx;
+    font-weight:bolder;
+    color: #505050;
+}
+.img{
+    width: 188rpx;
+    height: 156rpx;
+}
+.box {
+    width: 92%;
+    height: 150rpx;
+    background-color: white;
+    /* border-bottom: 20rpx solid #efefef; */
+    border-radius: 30rpx;
+    border: 1rpx solid #505050 ;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 20rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+
+.btn{
+    background-color: #07c160;
+    color:white;
+    font-weight:normal;
+}
+

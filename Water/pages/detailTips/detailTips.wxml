@@ -1,0 +1,6 @@
+<!--pages/detailTips/detailTips.wxml-->
+<view class="title">{{tips.title}}</view>
+<view class="content" style="text-indent:2em;">{{tips.content}}</view>
+<button class="btn" type="primary" disabled="{{canIUseBtn}}" style="color: {{color}}; background-color: {{backgroundcolor}};" bindtap="scorePlus">我已了解此条节水贴士</button>
+
+

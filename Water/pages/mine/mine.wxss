@@ -1,0 +1,112 @@
+/* pages/userMine/userMine.wxss */
+
+
+page {
+    background-color: #efefef;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 17%;
+}
+
+.mine {
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.showuserface {
+    width: 150rpx;
+    height: 150rpx;
+}
+.score{
+    color: #437fff;
+    font-size: 34rpx;
+    font-family: PingFangSC-regular;
+    font-weight: bold;
+}
+
+.btn1{
+    margin-top: 10rpx;
+    background-color: #f2f2f2;
+    color: #07c160;
+    font-weight:normal;
+}
+
+.btn2{
+    margin-top: 20rpx;
+    background-color: #f2f2f2;
+    color: #07c160;
+    font-weight:lighter;
+}
+
+.btn2text{
+    font-size: 35rpx;
+    text-align: center;
+}
+
+.messages {
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+}
+
+.box {
+    width: 100%;
+    height: 150rpx;
+    background-color: white;
+    border-top: 20rpx solid #efefef;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.showimg {
+    padding-left: 10rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.showplace {
+    padding-left: 10rpx;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5rpx;
+    font-size: 34rpx;
+    font-family: PingFangSC-regular;
+    font-weight: bold;
+}
+
+.showlevel {
+    padding-left: 10rpx;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 13rpx;
+    font-size: 30rpx;
+    font-family: PingFangSC-regular;
+    font-weight: normal;
+}
+
+.showtime {
+    padding-left: 10rpx;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 13rpx;
+    color: #5e5d5d;
+    font-size: 25rpx;
+    font-family: 'Times New Roman', Times, serif;
+}

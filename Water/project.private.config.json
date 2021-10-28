@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/fixView/fixView",
+          "pathName": "pages/fixView/fixView",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fixView2/fixView2",
+          "pathName": "pages/fixView2/fixView2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fixView/fixView",
+          "pathName": "pages/fixView/fixView",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fixView2/fixView2",
+          "pathName": "pages/fixView2/fixView2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fixView/fixView",
+          "pathName": "pages/fixView/fixView",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/workerenroll/workerenroll",
+          "pathName": "pages/workerenroll/workerenroll",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/phone/phone",
+          "pathName": "pages/phone/phone",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/questions/questions",
+          "pathName": "pages/questions/questions",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/startquestion/startquestion",
+          "pathName": "pages/startquestion/startquestion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detailmall/detailmall",
+          "pathName": "pages/detailmall/detailmall",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/scoremall/scoremall",
+          "pathName": "pages/scoremall/scoremall",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

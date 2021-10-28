@@ -1,0 +1,3 @@
+<!--pages/mytest/mytest.wxml-->
+<text>pages/mytest/mytest.wxml</text>
+<button bindtap="test">test</button>

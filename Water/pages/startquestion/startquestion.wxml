@@ -1,0 +1,24 @@
+<view class="tip">当前第{{current}}题/共{{total}}题</view>
+<progress class="pro" color=" rgba(13, 145, 13, 0.507)" percent="{{percent}}" show-info border-radius='20' stroke-width="20" />
+<view class='content'>
+<view>题目：{{subject.title}}</view>
+
+<radio-group bindchange="radioChange">
+  <view wx:for="{{subject.options}}" class="item">
+    <radio value="{{item.code}}" checked="{{isSelect}}" />
+    <text>{{item.code}}:{{item.option}}</text>
+  </view>
+</radio-group>
+
+</view>
+
+<button class="submitt"  bindtap="submit" disabled="{{dis}}">提交答题</button>
+
+<view class="result" wx:if="{{totalScore>-1}}">
+<view> </view>
+  <view>您答错了{{totalError}}道题
+  <view>用户得分：{{totalScore}}</view>
+  <view>用户获得积分：{{jifen}}</view>
+ 
+  </view>
+</view>

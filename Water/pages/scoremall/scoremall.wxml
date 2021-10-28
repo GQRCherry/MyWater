@@ -1,0 +1,15 @@
+<!--pages/scoremall/scoremall.wxml-->
+<view class="top">
+    <view class="title">
+        滴水云修商城
+    </view>
+</view>
+<block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName">
+    <view class="box" bindtap="goDetailMall" data-id='{{itemName._id}}'>
+        <cover-image class="showing" src='{{itemName.url}}'></cover-image>
+        <view class="box1">
+            <view class="name">{{itemName.name}}</view>
+            <view class="price">所需积分：<text class="color">{{itemName.price}}</text></view>
+        </view>
+    </view>
+</block>

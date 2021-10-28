@@ -1,0 +1,52 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/tips/tips",
+    "pages/detailTips/detailTips",
+    "pages/up/up",
+    "pages/fixView/fixView",
+    "pages/myscore/myscore",
+    "pages/phone/phone",
+    "pages/enroll/enroll",
+    "pages/explain/explain",
+    "pages/scoremall/scoremall",
+    "pages/detailmall/detailmall",
+    "pages/exchange/exchange",
+    "pages/questions/questions",
+    "pages/mytest/mytest",
+    "pages/workerenroll/workerenroll",
+    "pages/startquestion/startquestion"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "滴水云修",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#d0d0d0",
+    "selectedColor": "#2FD0E6",
+    "borderStyle": "white",
+    "list": [{
+        "selectedIconPath": "image/release2.png",
+        "iconPath": "image/release1.png",
+        "pagePath": "pages/up/up",
+        "text": "发布"
+      },
+      {
+        "selectedIconPath": "image/me2.png",
+        "iconPath": "image/me1.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+
+
+}

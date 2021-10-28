@@ -1,0 +1,28 @@
+.userinfo{
+  position: relative;
+}
+
+.txt1{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.txt2{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.btn{
+  background-color: #07c160;
+  color:white;
+  font-weight:normal;
+  position: absolute;
+  top: 60%;
+  left: 23%;
+}
+

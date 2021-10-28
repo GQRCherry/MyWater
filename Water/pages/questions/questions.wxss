@@ -1,0 +1,17 @@
+/* pages/questions/questions.wxss */
+.start {
+  color: white;
+  background: rgba(13, 145, 13, 0.507);
+  margin-top: 150rpx;
+}
+
+.title {
+  margin-top: 80rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60rpx;
+  font-weight: bolder;
+  color: #505050;
+}

@@ -1,0 +1,25 @@
+/* pages/detailTips/detailTips.wxss */
+.title{
+    margin-top: 30rpx;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 92%;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: 20rpx;
+    font-weight:normal;
+    font-size: small;
+}
